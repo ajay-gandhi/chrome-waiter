@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cast</title>
+    <script src="/socket.js"></script>
+  </head>
+  <body>
+    <img id="cast" />
+    <script>
+      const socket = io();
+      const img = document.querySelector("#cast");
+      socket.on("image", (image) => {
+        img.src = "data:image/png;base64," + image.data;
+      });
+    </script>
+  </body>
+</html>
