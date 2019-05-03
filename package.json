@@ -1,0 +1,29 @@
+{
+  "name": "chrome-waiter",
+  "version": "0.0.1",
+  "description": "Serve the view of a headless browser",
+  "main": "server.js",
+  "dependencies": {
+    "chrome-remote-interface": "^0.27.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajay-gandhi/chrome-waiter.git"
+  },
+  "keywords": [
+    "chrome",
+    "headless",
+    "browser"
+  ],
+  "author": "Ajay Gandhi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajay-gandhi/chrome-waiter/issues"
+  },
+  "homepage": "https://github.com/ajay-gandhi/chrome-waiter#readme"
+}
